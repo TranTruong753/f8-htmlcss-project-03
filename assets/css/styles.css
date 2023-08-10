@@ -8,5 +8,74 @@ html {
 
 body {
     font-size: 1.6rem;
-    font-family: 'Sora', sans-serif;
+    font-family: "Sora", sans-serif;
+}
+
+/* common */
+:root {
+    --header-bg : #10375c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+/* Header */
+
+.header {
+    padding-top: 30px;
+    min-height: 100vh;
+    background: var(--header-bg);
+}
+
+.logo {
+    display: inline-flex;
+    font-size: 1rem;
+}
+
+.logo__circle::after, .logo__circle::before {
+    display: inline-block;
+    content: "";
+    border-radius: 50%;
+}
+
+.logo__circle {
+    position: relative;
+}
+
+.logo__circle::after {
+    width: 3em;
+    height: 3em;
+    background: #2E80CE;
+}
+
+.logo__circle::before {
+    position: absolute;
+    top: 1.1em;
+    left: 1.1em;
+    width: 1.6em;
+    height: 1.6em;
+    background: #fff;
+} 
+
+.logo__text {
+    margin-left: 6px;
+    text-align: right;
+}
+
+.logo__brand {
+    display: block;
+    color: #fff;
+    font-size: 1.8em;
+}
+
+.logo__brand--smail {
+    font-size: 1.2em;
+    font-weight: 300;
 }
