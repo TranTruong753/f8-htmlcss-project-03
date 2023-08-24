@@ -462,11 +462,11 @@ a {
 }
 
 .member-item:hover .member-item__thumb {
-    transform: scale(1.1); 
+    transform: scale(1.1);
 }
 
 .member-item:hover .member-item__img-bg {
-    box-shadow: 25px 25px 15px 0px rgba(0,0,0,0.1);
+    box-shadow: 25px 25px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .member-item__img-bg {
@@ -525,7 +525,52 @@ a {
 }
 
 .member__control-btn:hover {
-    border: 1px solid #2E80CE;
-    background: #2E80CE;
+    border: 1px solid #2e80ce;
+    background: #2e80ce;
     color: #fff;
 }
+
+/* Install */
+.install {
+    margin-top: 180px;
+}
+
+.install__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.install__img {
+    display: block;
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading, .install__desc {
+    color: #FFF;
+}
+
+.install__heading {
+    min-width: 489px;
+}
+
+.install__desc {
+    min-width: 586px;;
+    margin-top: 18px;
+}
+
+.install__row {
+    display: flex;
+    column-gap: 28px;
+    margin-top: 38px;
+}
+
